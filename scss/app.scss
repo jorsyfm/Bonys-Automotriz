@@ -41,6 +41,17 @@ li {
             display: none !important;
         }
     }
+    &-desktop {
+        @media screen and (min-width: $desktop) {
+            display: none !important;
+        }
+    }
+}
+.nav-mobile {
+    background: rgba($red, 0.7);
+    &-sub {
+        right: 10px !important;
+    }
 }
 @import "partials/home";
 @import "general/margin";

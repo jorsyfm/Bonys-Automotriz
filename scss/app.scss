@@ -1,10 +1,34 @@
-body{
-    background: red;
-    text-align: center;
+@import "general/var.scss";
+@import "general/fonts";
+
+body {
+    font-size: 16px;
+    font-family: 'Signika', sans-serif;
+    color: $black;
 }
-h1 {
-    text-align: center;
+li {
+    list-style: none;
 }
-h2 {
-    text-align: center;
+.bg {
+    &-red {
+        background: $red;
+    }
 }
+.br {
+    &-10 {
+        border-radius: 10px;
+    }
+    &-3 {
+        border-radius: 3px;
+    }
+}
+.zi-1 {
+    z-index: 1;
+}
+.c {
+    &-red {
+        color: $red;
+    }
+}
+@import "partials/home";
+@import "general/margin";

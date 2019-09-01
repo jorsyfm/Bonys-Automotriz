@@ -1,0 +1,43 @@
+.home {
+    &-slider {
+        min-height: 100vh;
+        background: url('../img/banner-reparacion-bonys.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        h1 {
+            border-bottom: 2px solid white;
+        }
+    }
+    &-arrow {
+        margin-top: -4rem;
+        width: 218px;
+    }
+    &-services {
+        background: #DEDEDE;
+    }
+    &-header {
+        background: rgba(0,0,0,0.7);
+        top: 0;
+        z-index: 1;
+        &-logo {
+            max-width: 128px;
+        }
+    }
+    &-footer {
+        background: url('../img/footer.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 270px;
+    }
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

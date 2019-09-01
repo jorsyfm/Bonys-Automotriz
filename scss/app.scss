@@ -1,10 +1,61 @@
-body{
-    background: red;
-    text-align: center;
+@import "general/var.scss";
+@import "general/fonts";
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
 }
-h1 {
-    text-align: center;
+body {
+    font-size: 16px;
+    font-family: 'Signika', sans-serif;
+    color: $black;
+    overflow-x: hidden;
 }
-h2 {
-    text-align: center;
+li {
+    list-style: none;
 }
+.bg {
+    &-red {
+        background: $red;
+    }
+}
+.br {
+    &-10 {
+        border-radius: 10px;
+    }
+    &-3 {
+        border-radius: 3px;
+    }
+}
+.zi-1 {
+    z-index: 1;
+}
+.c {
+    &-red {
+        color: $red;
+    }
+    &-black {
+        color: $black;
+    }
+}
+.dn {
+    &-mobile {
+        @media screen and (max-width: $desktop) {
+            display: none !important;
+        }
+    }
+    &-desktop {
+        @media screen and (min-width: $desktop) {
+            display: none !important;
+        }
+    }
+}
+.nav-mobile {
+    background: rgba($red, 0.7);
+    &-sub {
+        right: 10px !important;
+    }
+}
+@import "partials/home";
+@import "general/margin";

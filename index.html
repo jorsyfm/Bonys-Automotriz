@@ -39,11 +39,20 @@
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-2 p-left-40">
-                    <img class="home-header-logo" src="./img/bonys-automotriz.png" alt="">
+                <div class="col-md-2 col-6 p-left-40">
+                    <a href="index.html">
+                        <img class="home-header-logo" src="./img/bonys-automotriz.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 dn-desktop p-right-40 d-flex justify-content-end">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14"><defs><clipPath id="emtta"><path d="M1.214 6h14.572C16.456 6 17 6.448 17 7s-.543 1-1.214 1H1.214C.544 8 0 7.552 0 7s.544-1 1.214-1zM8.5 12h7.286c.67 0 1.214.448 1.214 1s-.543 1-1.214 1H8.5c-.67 0-1.214-.448-1.214-1s.544-1 1.214-1zM1.214 0H8.5c.67 0 1.215.448 1.215 1S9.17 2 8.5 2H1.214C.544 2 0 1.552 0 1s.544-1 1.214-1z"/></clipPath></defs><g><g><g><path fill="#fff" d="M1.214 6h14.572C16.456 6 17 6.448 17 7s-.543 1-1.214 1H1.214C.544 8 0 7.552 0 7s.544-1 1.214-1zM8.5 12h7.286c.67 0 1.214.448 1.214 1s-.543 1-1.214 1H8.5c-.67 0-1.214-.448-1.214-1s.544-1 1.214-1zM1.214 0H8.5c.67 0 1.215.448 1.215 1S9.17 2 8.5 2H1.214C.544 2 0 1.552 0 1s.544-1 1.214-1z"/></g><g clip-path="url(#emtta)"><path fill="#fff" d="M-6.072-3h29.144v20H-6.072z"/></g></g></g></svg>
+                            </span>
+                        </button>
                 </div>
                 <nav class="dn-mobile col-md-6 offset-md-1">
-                    <ul class="d-flex">
+                    <ul class="d-flex m-0">
                         <li class="p-right-20 dropdown">
                             <a href="" class="text-white fs-14 text-uppercase dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="m-right-10">Servicios</span>
@@ -57,21 +66,43 @@
                             </div>
                         </li>
                         <li class="text-white">/</li>
-                        <li class="p-right-20 p-left-20"><a href="" class="text-white fs-14 text-uppercase">Flotillas</a></li>
+                        <li class="p-right-20 p-left-20"><a href="flotillas.html" class="text-white fs-14 text-uppercase">Flotillas</a></li>
                         <li class="text-white">/</li>
                         <li class="p-left-20"><a href="" class="text-white fs-14 text-uppercase">Contacto</a></li>
                     </ul>
                 </nav>
                 <div class="col-md-3 dn-mobile d-flex justify-content-end p-right-40">
-                    <p class="text-white fs-14">Taller autorizado de:</p>
+                    <p class="text-white fs-14 m-0">Taller autorizado de:</p>
                     <span class="m-left-10"><img src="./img/toyota-icon.png" alt=""></span>
                     <span class="m-left-5"><img src="./img/avis-icon.png" alt=""></span>
                 </div>
             </div>
         </div>
+        <div class="collapse navbar-collapse nav-mobile m-top-10" id="navbarNav"><!-- Nav mobile -->
+            <ul class="navbar-nav text-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Servicios
+                    </a>
+                    <div class="dropdown-menu nav-mobile-sub" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Hojalateria y pintura</a>
+                        <a class="dropdown-item" href="#">Pulido y Encerado</a>
+                        <a class="dropdown-item" href="#">Estética y Detallado</a>
+                        <a class="dropdown-item" href="#">Mantenimiento</a>
+                        <a class="dropdown-item" href="#">Servicio de Valet</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="flotillas.html">Flotillas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div><!-- Nav mobile -->
     </header><!-- Header -->
 
-    <section class="home-slider d-flex align-items-center position-relative p-top-100 p-bottom-100" id="particles-js"><!-- Slider Home -->
+    <section class="home-slider d-flex align-items-center position-relative p-top-md-80 p-top-130 p-bottom-80" id="particles-js"><!-- Slider Home -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-white">

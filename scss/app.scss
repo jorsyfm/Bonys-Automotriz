@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     font-family: 'Signika', sans-serif;
     color: $black;
+    overflow-x: hidden;
 }
 li {
     list-style: none;
@@ -34,12 +35,26 @@ li {
     &-red {
         color: $red;
     }
+    &-black {
+        color: $black;
+    }
 }
 .dn {
     &-mobile {
         @media screen and (max-width: $desktop) {
             display: none !important;
         }
+    }
+    &-desktop {
+        @media screen and (min-width: $desktop) {
+            display: none !important;
+        }
+    }
+}
+.nav-mobile {
+    background: rgba($red, 0.7);
+    &-sub {
+        right: 10px !important;
     }
 }
 @import "partials/home";

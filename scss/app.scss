@@ -19,6 +19,21 @@ li {
     &-red {
         background: $red;
     }
+    &-yellow {
+        background: #FFF24E;
+    }
+    &-blue {
+        background: #014AEF;
+    }
+    &-pink {
+        background: #FF59CB;
+    }
+    &-orange {
+        background: #FDBE47;
+    }
+    &-green {
+        background: #08F62D;
+    }
 }
 .br {
     &-10 {
@@ -37,6 +52,9 @@ li {
     }
     &-black {
         color: $black;
+    }
+    &-gray {
+        color: $gray;
     }
 }
 .dn {
@@ -58,4 +76,5 @@ li {
     }
 }
 @import "partials/home";
+@import "partials/hojalateria";
 @import "general/margin";

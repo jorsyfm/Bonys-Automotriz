@@ -37,6 +37,23 @@
     }
 }
 
+.glide__slide {
+    height: auto;
+}
+
+.glide__bullets {
+    bottom: 1em;
+}
+
+.glide__bullet {
+    background: #B1B1B1;
+    width: 30px;
+    height: 30px;
+    &.glide__bullet--active {
+        background: $red;
+    }
+}
+
 .particles-js-canvas-el {
     position: absolute;
     top: 0;

@@ -1,0 +1,47 @@
+.change-car {
+    button {
+        border: 0;
+        height: 3rem;
+        transition: all ease 0.5s;
+        @media screen and (min-width: $desktop) {
+            height: 2rem;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+.body{
+    &-products {
+        img {
+            max-width: 90px;
+        }
+    }
+}
+.package-ul {
+    li {
+        list-style: inside;
+    }
+}
+
+.container {
+    &-title {
+        background: url('../img/audi-automotriz.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &-flag {
+            width: 150px;
+        }
+        &-flotillas {
+            background: url('../img/flotillas-bonys.jpg');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    }
+}
+
+.services-container {
+    background: #DEDEDE;
+}

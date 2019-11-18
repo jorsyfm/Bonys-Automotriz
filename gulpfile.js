@@ -24,4 +24,4 @@ function watchFiles() {
 
 // Registrar funciones como tareas
 gulp.task( 'css', css );
-gulp.task('watch', gulp.parallel(watchFiles));
+gulp.task('sass', gulp.parallel(watchFiles));

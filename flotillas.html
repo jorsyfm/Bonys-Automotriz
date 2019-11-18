@@ -119,9 +119,11 @@
 
     <main><!-- Contenido del sitio -->
 
-        <div class="d-flex flex-column align-items-center m-top-50">
-            <img src="./img/bandera-carros.png" alt="">
-            <h2 class="fs-md-52 fs-32 m-top-30 text-center">Flotillas</h2>
+        <div class="container-fluid position-relative container-title-flotillas" id="particles-js">
+            <div class="d-flex flex-column align-items-center container p-top-20 p-bottom-20">
+                <img src="./img/bandera-carros.png" class="container-title-flag" alt="">
+                <h1 class="fs-md-40 fs-32 m-top-20 text-white">Flotillas</h1>
+            </div>
         </div>
 
         <div class="container home-flotillas m-top-50">
@@ -216,9 +218,11 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/particles.min.js"></script>
+    <script>particlesJS.load('particles-js', 'js/particles.json');</script>
     <!-- Scripts -->
 </body>
 </html>

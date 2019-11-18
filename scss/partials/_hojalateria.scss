@@ -23,3 +23,25 @@
         list-style: inside;
     }
 }
+
+.container {
+    &-title {
+        background: url('../img/audi-automotriz.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &-flag {
+            width: 150px;
+        }
+        &-flotillas {
+            background: url('../img/flotillas-bonys.jpg');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    }
+}
+
+.services-container {
+    background: #DEDEDE;
+}
